@@ -9,8 +9,8 @@ Sample output : x=3,y=2
 void swapping(int *,int *);
 int main()
 {
-    int x=2;
-    int y=3;
+    int x,y;
+    scanf("%d %d",&x,&y);
     swapping(&x,&y);
     printf("x=%d y=%d",x,y);
     return 0;
